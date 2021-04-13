@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5GsPLgpin+CsE/H3D69Y9YuO7NXO+NpnsBZWoyNUXRrruaWqjYSUyQLkOs1WICJa6+63Wk8iGt8BhF8/nqtrEg==",
+  "dgSpecHash": "lG276UFGm0+U9eexE8lh2Ou8gp+hDmmQYD+pV/txh7AqgPy9r+BWndrlywUcZZlCM+9WgNGNq+eOVQaISEQKXg==",
   "success": true,
-  "projectFilePath": "E:\\J2W\\Practice Programs\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj",
+  "projectFilePath": "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SHIVA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\SHIVA\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\J2W\\Practice Programs\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj": {}
+    "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj": {}
   },
   "projects": {
-    "E:\\J2W\\Practice Programs\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj": {
+    "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\J2W\\Practice Programs\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj",
+        "projectUniqueName": "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj",
         "projectName": "CoreAPIWithCorsDemo",
-        "projectPath": "E:\\J2W\\Practice Programs\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj",
+        "projectPath": "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo.csproj",
         "packagesPath": "C:\\Users\\SHIVA\\.nuget\\packages\\",
-        "outputPath": "E:\\J2W\\Practice Programs\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\obj\\",
+        "outputPath": "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\CoreAPIWithCorsDemo\\CoreAPIWithCorsDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SHIVA\\AppData\\Roaming\\NuGet\\NuGet.Config",

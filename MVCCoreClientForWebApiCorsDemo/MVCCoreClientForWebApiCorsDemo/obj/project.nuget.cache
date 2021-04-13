@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mb/4CLqd9/amcAz2xZRlAteeb7E0s9kSga8J0JDb46nzQvuAT/041khsbvWGEq8IFsFYqG/gb7W/dDgfEBQltQ==",
+  "dgSpecHash": "F+x6SHpxVxtd/E1VMmmXkF6z3ybODjDhv92u19dRXEVWqSxcY2g48XdhLcEdhQPbekcSyPNuaXLHHxCpoV2TRA==",
   "success": true,
-  "projectFilePath": "E:\\J2W\\Practice Programs\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo.csproj",
+  "projectFilePath": "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SHIVA\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\SHIVA\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

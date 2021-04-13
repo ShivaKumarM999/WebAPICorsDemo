@@ -45,9 +45,10 @@
                 $.ajax({
                     url: 'https://localhost:44348/api/Students/' + $("#Id").val(),
                      data: JSON.stringify(student),
-
                     //data: $("#form1").serialize(),
                     type: "put",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: 'json',
                     success: function (response) {
                         $("#ResponseSpan").html(response);
                         alert("record updated")

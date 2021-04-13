@@ -6337,11 +6337,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\J2W\\Practice Programs\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo.csproj",
+      "projectUniqueName": "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo.csproj",
       "projectName": "MVCCoreClientForWebApiCorsDemo",
-      "projectPath": "E:\\J2W\\Practice Programs\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo.csproj",
+      "projectPath": "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo.csproj",
       "packagesPath": "C:\\Users\\SHIVA\\.nuget\\packages\\",
-      "outputPath": "E:\\J2W\\Practice Programs\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo\\obj\\",
+      "outputPath": "E:\\J2W\\Practice Programs\\WebAPICorsDemo\\MVCCoreClientForWebApiCorsDemo\\MVCCoreClientForWebApiCorsDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SHIVA\\AppData\\Roaming\\NuGet\\NuGet.Config",

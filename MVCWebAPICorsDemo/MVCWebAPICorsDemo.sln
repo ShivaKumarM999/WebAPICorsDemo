@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWebAPICorsDemo", "MVCWebAPICorsDemo\MVCWebAPICorsDemo.csproj", "{1F43C5B4-6B95-48BC-B1C9-6EE9142FFFEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F43C5B4-6B95-48BC-B1C9-6EE9142FFFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F43C5B4-6B95-48BC-B1C9-6EE9142FFFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F43C5B4-6B95-48BC-B1C9-6EE9142FFFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F43C5B4-6B95-48BC-B1C9-6EE9142FFFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82898A73-2209-4B57-9C40-125829B13E70}
+	EndGlobalSection
+EndGlobal

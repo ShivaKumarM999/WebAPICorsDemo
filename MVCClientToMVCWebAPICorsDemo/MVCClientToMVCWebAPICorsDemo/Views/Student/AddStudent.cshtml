@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "AddStudent";
+}
+
+<h2>AddStudent</h2>
+
+<form id="form1">
+    <p>
+        <label for="Id">ID:</label>
+        <input type="text" id="Id" name="Id" />
+    </p>
+
+    <p>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="StudentName" />
+    </p>
+
+    <p>
+        <label for="Marks">Marks:</label>
+        <input type="text" id="Marks" name="Marks" />
+    </p>
+
+
+    <p>
+        <input type="button" id="button1" value="Insert" />
+        <span id="ResponseSpan"></span>
+    </p>
+
+</form>
+
+
+
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<!-- jquery code -->
+<script type="text/javascript">
+    $(function () {
+
+        $("#button1").click(function () {
+
+            var student = { Id: $('#Id').val(), Name: $('#Name').val(), Marks: $('#Marks').val() };
+
+
+
+            //ajax code
+            $.ajax({
+                url: 'https://localhost:44322/api/Students',
+                data: JSON.stringify(student),
+                type: "post",
+                contentType: "application/json; charset=utf-8",
+                dataType: 'json',
+                success: function (response) {
+                    $("#ResponseSpan").html(response);
+                    alert("record inserted")
+                },
+                error: function (jqXHR, textStatus, err) {
+                    $("#ResponseSpan").html(err);
+                }
+            });
+
+        });
+
+    });
+</script>
