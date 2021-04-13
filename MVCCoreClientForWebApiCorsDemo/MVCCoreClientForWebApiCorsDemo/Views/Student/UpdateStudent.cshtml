@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "UpdateStudent";
+}
+
+<h1>UpdateStudent</h1>
+
+<form id="form1">
+    <p>
+        <label for="Id">Student ID to Update:</label>
+        <input type="text" id="Id" name="Id" />
+    </p>
+
+    <p>
+        <label for="Name">Student Name:</label>
+        <input type="text" id="Name" name="StudentName" />
+    </p>
+
+    <p>
+        <label for="Marks">Marks:</label>
+        <input type="text" id="Marks" name="Marks" />
+    </p>
+
+
+    <p>
+        <input type="button" id="button1" value="Update" />
+        <span id="ResponseSpan"></span>
+    </p>
+
+</form>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<!-- jquery code -->
+<script type="text/javascript">
+    $(function () {
+
+        $("#button1").click(
+            function () {
+
+
+                var student = { id: $('#Id').val(), name: $('#Name').val(), marks: $('#Marks').val() };
+
+
+
+                //ajax code
+                $.ajax({
+                    url: 'https://localhost:44348/api/Students/' + $("#Id").val(),
+                     data: JSON.stringify(student),
+
+                    //data: $("#form1").serialize(),
+                    type: "put",
+                    success: function (response) {
+                        $("#ResponseSpan").html(response);
+                        alert("record updated")
+                    },
+                    error: function (jqXHR, textStatus, err) {
+                        $("#ResponseSpan").html(err);
+                    }
+                });
+
+            });
+
+    });
+</script>
